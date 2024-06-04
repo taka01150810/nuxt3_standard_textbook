@@ -1,2 +1,11 @@
-1. Nuxtプロジェクトの作成コマンド
+1.3.2 Nuxtプロジェクトの作成コマンド
 npx nuxi init hello-nuxt
+
+1.3.3 Nuxtプロジェクへの依存パッケージのインストール
+npm install
+
+1.3.4 nuxtプロジェクトの実行コマンド
+npm run dev
+
+ブラウザの新規タブで開くコマンド
+npm run dev -- -o
