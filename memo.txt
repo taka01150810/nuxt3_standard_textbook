@@ -1,0 +1,2 @@
+1. Nuxtプロジェクトの作成コマンド
+npx nuxi init hello-nuxt
