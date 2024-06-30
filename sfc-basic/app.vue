@@ -1,4 +1,7 @@
 <script setup lang="ts">
+// Nuxtはオートインポートなので以下は必要ない
+// import { ref, computed } from "vue";
+
 // 乱数を取得
 const widthInit = Math.round(Math.random() * 10);
 const heightInit = Math.round(Math.random() * 10);
