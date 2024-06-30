@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const msg = ref("まだ");
-const onButtonClick = (): void => {
-  msg.value = "引数なしでクリック";
+const onButtonClick = (event: Event): void => {
+  msg.value = event + "イベントクリック";
 };
 </script>
 
